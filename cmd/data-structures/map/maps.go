@@ -39,6 +39,8 @@ func main() {
 	}
 
 	// iterating over a map
+	// elements do not have an order in a map.
+	//so the order of the elements each time we run that in a loop is not the same
 
 	for key := range peopleMap {
 		fmt.Println(key)
